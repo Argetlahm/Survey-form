@@ -1,0 +1,89 @@
+/*
+Pallette:
+#312c51
+#48426d
+#f0c38e
+#f1aa9b
+
+ */
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  color: white;
+  background:
+  linear-gradient(rgba(30, 30, 30, 0.75),rgba(30, 30, 30, 0.75)),url("ian-battaglia-9drS5E_Rguc-unsplash.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input{
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+}
+
+input[type="radio"],input[type="checkbox"]{
+  width: auto;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+  height: 1.75rem;
+}
+
+
+select{
+  padding: 2.5px;
+  width: 101%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  height: 2rem;
+}
+
+textarea{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.btn{
+  width: 101%;
+  background-color: rgba(22,150,82,1);
+  border-radius: 4px;
+  color: white;
+  padding: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 50px;
+  border: none;
+}
+
+.form-box{
+  width: 80%;
+  background-color:#312c51;
+  height: auto;
+  padding: 50px;
+  margin:auto;
+  text-align: left;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+
+@media (min-width: 700px) {
+  .form-box{
+    width: 60%;
+  }
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <main id="main">
+    <h1 id="title">Feedback Survey Form</h1>
+    <p id="description">Feedback form for customer satisfaction</p>
+    <div class="form-box">
+      <form id="survey-form" class="" action="index.html" method="post">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" name="" value="" required placeholder="Enter your full name">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" name="" value="" required placeholder="Enter a valid email">
+      <label for="number" id="number-label">Age (optional)</label><br>
+      <input type="number" id="number" min="1" max="99" name="" value="" placeholder="Enter your current age">
+      <label for="job">Occupation</label><br>
+      <select id="dropdown" class="" name="">
+        <option value="Student">Student</option>
+        <option value="GradStudent">Grad Student</option>
+        <option value="Enterpreneur">Enterpreneur</option>
+        <option value="Professional">Professional</option>
+      </select>
+        <p>Would you recommend our service to your friends/family?</p>
+        <input type="radio" id="definitely" name="survey" value="1">
+        <label for="definitely">Definitely</label><br>
+        <input type="radio" id="neutral" name="survey" value="2">
+        <label for="neutral">Neutral</label><br>
+        <input type="radio" id="noway" name="survey" value="3">
+        <label for="noway">Absolutely not</label><br>
+        <p>What feature do you want us to improve? (Select all that apply)</p>
+        <input type="checkbox" id="faq" name="" value="faq">
+        <label for="faq">F.A.Q</label><br>
+        <input type="checkbox" id="product" name="" value="product">
+        <label for="product">Product</label><br>
+        <input type="checkbox" id="service" name="" value="service">
+        <label for="service">Services</label><br>
+        <input type="checkbox" id="website" name="" value="website">
+        <label for="website">Website</label><br>
+        <input type="checkbox" id="other" name="" value="other">
+        <label for="other">Other</label><br>
+        <p>Any comments or other suggestions?</p>
+        <textarea name="comment" rows="8" cols="80"></textarea>
+        <button id="submit" class="btn" type="submit" name="button">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <footer><span>Photo by <a href="https://unsplash.com/@ianjbattaglia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ian Battaglia</a> on <a href="https://unsplash.com/@ianjbattaglia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></footer>
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script> -->
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
